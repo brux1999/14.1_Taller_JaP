@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taller Responsive & Bootstrap</title>
+
+    <!--Se vincula Bootstrap usando metodo CDN-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <!--Inicio del body con la navbar-->
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOREM IPSUM</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> Nav item 1 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Nav item 2 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Nav item 3 </a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 d-lg-flex" role="search">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item d-md-block d-lg-none">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#opcionesMenu"
+                >
+                  Opciones
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Titulo de la pagina-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <h1 class="text-center">Lorem Ipsum</h1>
+          </div>
+        </div>
+        <div
+          id="carouselExample"
+          class="carousel slide d-none d-lg-block"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div id="carousel-text" class="border border-danger border-4">
+                Hola que tal
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div id="carousel-text" class="border border-danger border-4">
+                Bienvenido a la página
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div id="carousel-text" class="border border-danger border-4">
+                Simulando aleatoriedad
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Comienza contenido principal de la pagina-->
+
+    <main>
+      <div
+        class="col-sm-3 collapse d-lg-block text-decoration-underline"
+        id="opcionesMenu"
+      >
+        <ul class="list-group">
+          <li class="list-group-item">Opción 1</li>
+          <li class="list-group-item">Opción 2</li>
+          <li class="list-group-item">Opción 3</li>
+          <li class="list-group-item">Opción 4</li>
+        </ul>
+      </div>
+      <div class="container mt-3">
+        <div class="row">
+          <div id="mainText" class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
+            <div class="col">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+                at voluptatem amet repellat! Obcaecati aspernatur repellendus
+                dolore ducimus! Voluptatum et eum sapiente, at quam temporibus!
+                Quibusdam nihil rerum consectetur quidem.
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                commodi, optio eveniet tempora nostrum quos quibusdam animi esse
+                delectus aliquid aliquam saepe accusantium? Autem, magnam nemo!
+                Ea dolorum quia ratione!
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                cupiditate consequatur explicabo iure pariatur consequuntur
+                veritatis possimus ab saepe, porro, officia vitae quidem alias
+                similique ex velit laudantium necessitatibus aspernatur.
+              </p>
+            </div>
+
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ex,
+                placeat quod aspernatur molestias praesentium laborum soluta ad
+                corporis, modi illum doloremque, nobis cum vel sed cupiditate
+                nihil qui est.
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloribus ut animi excepturi odit laborum! Vero facere soluta
+                quae dolorum cumque illum neque ab enim, voluptatum sunt
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                labore fuga tempore quae fugit autem dolorum accusantium
+                temporibus dicta eum ratione id
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium ratione numquam, harum aliquid nulla voluptas magnam
+                odio, eveniet rem enim
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                incidunt natus, fugit perspiciatis veritatis autem mollitia
+                obcaecati iusto molestias
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Agrega el enlace a Bootstrap JS y Popper.js -->
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

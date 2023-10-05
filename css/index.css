@@ -1,0 +1,22 @@
+
+/*Soluciona posibles problemas de compatibilidad*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#carouselExample {
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+}
+
+#opcionesMenu {
+  float: left;
+  margin: 30px;
+}
+
+#mainText > .col {
+  text-align: justify;
+}
